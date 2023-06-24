@@ -2,6 +2,7 @@
 import { messages as enMessages } from "./en/messages";
 import { messages as krMessages } from "./kr/messages";
 import { messages as zh_HansMessages } from "./zh-Hans/messages";
+import { messages as trMessages } from "./tr/messages";
 
 // Define a type for language with label, locale and messages
 export type Language = {
@@ -22,6 +23,12 @@ export const LANGUAGES: Language[] = [
     locale: "zh-Hans",
     label: "中文(简体)",
     messages: zh_HansMessages,
+  },
+  // Turkish
+  {
+    locale: "tr",
+    label: "Türkçe",
+    messages: trMessages,
   },
 ];
 
